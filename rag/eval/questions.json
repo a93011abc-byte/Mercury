@@ -1,0 +1,30 @@
+{
+  "k": 3,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "圖書館一次最多可以借幾本書？",
+      "expected_files": ["01-library-rules.md"]
+    },
+    {
+      "id": "q2",
+      "question": "圖書逾期歸還時每一天罰款多少？",
+      "expected_files": ["01-library-rules.md"]
+    },
+    {
+      "id": "q3",
+      "question": "相鄰片段為什麼要保留重疊？",
+      "expected_files": ["02-chunking.md"]
+    },
+    {
+      "id": "q4",
+      "question": "每個片段會保存哪些來源資訊？",
+      "expected_files": ["02-chunking.md"]
+    },
+    {
+      "id": "q5",
+      "question": "預設生成器需不需要 API 金鑰？",
+      "expected_files": ["03-starter-scope.md"]
+    }
+  ]
+}
