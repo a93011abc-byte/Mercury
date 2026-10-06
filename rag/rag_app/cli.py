@@ -62,7 +62,7 @@ def _ask(question: str, k: int, index_path: Path) -> int:
         print("k 必須是正整數", file=sys.stderr)
         return 2
     index = load_index(index_path)
-    answer = generate_answer(question, index.search(question, k))
+    answer = generate_answer(question, index.search(question, k), index.idf)
     print(answer)
     return 0
 
